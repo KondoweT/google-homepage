@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainPage{
+    width: 100%;
+    height: 100%;
+    margin: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.topNav{
+    margin: 0;
+    padding: 10px;
+    height: 35%;
+    display: flex;
+    border: 2px black dashed;
+}
+.leftnav{
+    width: 50vw;
+}
+
+.rightnav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#googlepage{
+    margin: auto;
+    max-width: 70%;
+}
+
+.logoCont{
+    width: 50%;
+    margin: auto;
+    position: relative;
+}
+.logo{
+    margin-bottom:20px;
+    position: relative;
+    left: 148px;
+    color: #9AA0A6;
+}
+
+#inputContainer{
+    position: relative;
+    padding: 0px 0;
+    margin: 0 auto;
+    width: 582px;
+    direction: ltr;
+}
+#searchInput{
+    height: 44px;
+    margin: 0;
+    padding-left: 35px;
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+}
+
+#searchInput:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#searchImg{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    width: 20px;
+    height: 20px;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+
+#googlepage{
+    margin-top: 130px;
+}
+
+#searchInput:focus{
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}

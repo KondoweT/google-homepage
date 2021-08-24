@@ -1,23 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
     <head>
-        <title>Google</title>
-        <meta charset="utf-8"/>
+        <title>Google Clone</title>
+        <meta charset="utf-8" />
     </head>
+    <link rel="stylesheet" href="styles/styles.css" />
     <body>
-        <div class="fullPage">
-            <div class="topNav"></div>
-            <div class="googlePage">
-                <div class="google-logo">
-                    <img id="googleImg" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GOOGLE" />
-                </div>
-                <div class="searchForm">
-                    <form>
-                        <input id="search" type="search" name="search" />
-                    </form>
-                </div>
+        <div class="mainPage">
+            <!-- topnav -->
+            <div class="topNav">
+                <div class="leftnav">left nav</div>
+                <div class="rightnav">right nav</div>
             </div>
-            <div class="bottomNavs"></div>
+
+            <!-- main page -->
+            <div id="googlepage">
+                <div id="logoCont">
+                    <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+                </div>
+                <form id="searchForm">
+                    <div id="inputContainer">
+                        <img src="images/search.png" alt="search" id="searchImg"/>
+                        <input id="searchInput" type="search" />
+                    </div>
+                </form>
+            </div>
         </div>
     </body>
 </html>
