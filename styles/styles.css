@@ -21,6 +21,26 @@ body{
 }
 .leftnav{
     width: 50vw;
+    margin-left: -40px;
+    /* padding-left: 0px; */
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+    color: #000;    
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 .rightnav{
@@ -140,4 +160,15 @@ body{
 
 #searchForm {
     max-width: 584px;
+}
+
+.bottomNav{
+    margin: 0;
+    padding: 10px;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    border: 2px black dashed;
+    position: absolute;
+    bottom: 0;
 }
