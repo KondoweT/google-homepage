@@ -47,6 +47,7 @@ a:hover{
     width: 50%;
     display: flex;
     justify-content: flex-end;
+    margin-right: 0px;
 }
 
 #googlepage{
@@ -174,7 +175,10 @@ a:hover{
 }
 
 .iconLinks{
+    display: flex;
     position: relative;
+    margin-right: 0px;
+    padding-right: 0px;
 }
 
 .googleApps{
@@ -183,9 +187,24 @@ a:hover{
     opacity: 0.5;
     padding-left: 13px;
     padding-top: 15px;
-    padding-right: 13px;
+    padding-right: 17px;
 }
 
 .googleApps:hover{
     opacity: 0.9;
+}
+
+.signIn{
+    position: relative;
+    top: 10px;
+    color:white;
+    outline-width: 1px;
+    padding: 0 12px;
+    border-radius: 2px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    background: #4387fd;
+    outline: none;
+    font-size: 13px;
+    line-height: 28px;
 }
