@@ -13,11 +13,11 @@ body{
 }
 
 .topNav{
-    margin: 0;
-    padding: 10px;
-    height: 35%;
+    /* margin: 0;
+    padding: 5px;
+    height: 15%; */
     display: flex;
-    border: 2px black dashed;
+    /* border: 2px black dashed; */
 }
 .leftnav{
     width: 50vw;
@@ -171,4 +171,21 @@ a:hover{
     border: 2px black dashed;
     position: absolute;
     bottom: 0;
+}
+
+.iconLinks{
+    position: relative;
+}
+
+.googleApps{
+    width: 23px;
+    height: 23px;
+    opacity: 0.5;
+    padding-left: 13px;
+    padding-top: 15px;
+    padding-right: 13px;
+}
+
+.googleApps:hover{
+    opacity: 0.9;
 }
