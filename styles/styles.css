@@ -145,6 +145,7 @@ a:hover{
     text-align: center;
     cursor: pointer;
     user-select: none;
+    margin-left: 10px;
 }
 
 .button:focus{
@@ -212,6 +213,7 @@ a:hover{
     outline: none;
     font-size: 13px;
     line-height: 28px;
+    margin-right: -11px;
 }
 
 .navLeft{
